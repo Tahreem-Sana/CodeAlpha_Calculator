@@ -40,4 +40,4 @@ Created for the CodeAlpha Frontend Development Internship.
 
 ## Author
 
-Add your name here.
+Tahreem Sana
