@@ -69,13 +69,13 @@ body {
 }
 
 
-/* Operator buttons */
+/*For Operator buttons */
 .keys button[data-operator] {
     background-color: #3776AB;
     color: #FFFFFF;
 }
 
-/* Operator hover */
+/*For Operator hover */
 .keys button[data-operator]:hover {
     background-color: #2D6392;
 }
@@ -86,7 +86,7 @@ body {
     color: #0F172A;
 }
 
-/* Equals button */
+/* for Equal button */
 .keys button[data-action="calculate"] {
     background-color: #FFD43B;
     color: #0F172A;
@@ -98,3 +98,5 @@ body {
 .keys button[data-action="calculate"]:hover {
     background-color: #F0C52E;
 }
+
+
