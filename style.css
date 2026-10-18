@@ -1,6 +1,14 @@
 * {
     box-sizing: border-box;
 }
+/* 
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FAFAFA;
+    margin-bottom: 24px;
+} */
 
 body {
     margin: 0;
@@ -29,7 +37,7 @@ body {
 #display {
     display: block;
     width: 100%;
-    min-height: 80px;
+    min-height: 120px;
     padding: 20px 8px;
     margin-bottom: 24px;
     background-color: #e1d3d3;
