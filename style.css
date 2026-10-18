@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,4 +100,21 @@ body {
     background-color: #F0C52E;
 }
 
+@media (max-width: 400px) {
+    .calculator {
+        padding: 16px;
+    }
 
+    .keys {
+        gap: 8px;
+    }
+
+    .keys button {
+        min-height: 52px;
+        font-size: 18px;
+    }
+
+    #display {
+        font-size: 28px;
+    }
+}
