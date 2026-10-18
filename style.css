@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e5c0d7;
+    background-color: #e8e0d8;
     min-height: 100vh;
 }
 
@@ -62,4 +62,35 @@ body {
 
 .keys button:active {
     background-color: #64748B;
+}
+
+
+/* Operator buttons */
+.keys button[data-operator] {
+    background-color: #3776AB;
+    color: #FFFFFF;
+}
+
+/* Operator hover */
+.keys button[data-operator]:hover {
+    background-color: #2D6392;
+}
+
+/* AC button */
+.keys button[data-action="clear"] {
+    background-color: #FFD43B;
+    color: #0F172A;
+}
+
+/* Equals button */
+.keys button[data-action="calculate"] {
+    background-color: #FFD43B;
+    color: #0F172A;
+    font-weight: 700;
+}
+
+/* Special buttons hover */
+.keys button[data-action="clear"]:hover,
+.keys button[data-action="calculate"]:hover {
+    background-color: #F0C52E;
 }
