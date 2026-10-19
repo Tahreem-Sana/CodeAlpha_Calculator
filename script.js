@@ -8,6 +8,8 @@ const deletebutton = document.querySelector("[data-action='delete']");
 
 const alphabetsbutton = document.querySelector("[data-action='Alpabets']");
 
+const decimalbutton = document.querySelector("[data-action='decimal']");
+
 
 numberbuttons.forEach(function(button) {
     button.addEventListener("click", function() {
@@ -38,4 +40,10 @@ deletebutton.addEventListener("click", function() {
 
 alphabetsbutton.addEventListener("click", function() {
     display.value = "TS";
+});
+
+decimalbutton.addEventListener("click", function() {
+    if(!display.value.includes(".")){
+        display.value += ".";
+    }
 });
