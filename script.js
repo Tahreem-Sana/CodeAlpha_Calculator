@@ -6,7 +6,7 @@ const clearbutton = document.querySelector("[data-action='clear']");
 
 const deletebutton = document.querySelector("[data-action='delete']");
 
-const alphabetsbutton = document.querySelector("[data-action='Alpabets']");
+const signbutton = document.querySelector("[data-action='sign']");
 
 const decimalbutton = document.querySelector("[data-action='decimal']");
 
@@ -58,8 +58,16 @@ deletebutton.addEventListener("click", function () {
     }
 });
 
-alphabetsbutton.addEventListener("click", function () {
-    display.value = "TS";
+signbutton.addEventListener("click", function () {
+    if (display.value === "0" || display.value === "Error") {
+        return;
+    }
+
+    if (display.value.startsWith("-")) {
+        display.value = display.value.slice(1);
+    } else {
+        display.value = "-" + display.value;
+    }
 });
 
 decimalbutton.addEventListener("click", function () {
