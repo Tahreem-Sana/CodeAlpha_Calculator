@@ -34,6 +34,8 @@ A responsive calculator built using HTML, CSS, and JavaScript as part of the Cod
 - `style.css` — Styling and responsive layout
 - `script.js` — Calculator functionality
 
+### Live Demo: https://codealpha-calculator-five.vercel.app
+
 ## Internship
 
 Created for the CodeAlpha Frontend Development Internship.
